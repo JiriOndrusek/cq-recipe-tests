@@ -14,8 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.camel.quarkus.update;
+package org.apache.camel.quarkus.update.v3_0;
 
+import org.apache.camel.quarkus.update.v3_0.CamelQuarkusMigrationRecipe;
 import org.junit.jupiter.api.Test;
 import org.openrewrite.java.JavaParser;
 import org.openrewrite.properties.Assertions;

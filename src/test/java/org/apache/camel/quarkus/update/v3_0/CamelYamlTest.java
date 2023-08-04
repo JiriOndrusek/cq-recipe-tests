@@ -14,12 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.camel.quarkus.update;
-
-import static org.openrewrite.test.RewriteTest.toRecipe;
+package org.apache.camel.quarkus.update.v3_0;
 
 import org.junit.jupiter.api.Test;
-import org.openrewrite.test.RewriteTest;
 import org.openrewrite.yaml.Assertions;
 
 public class CamelYamlTest extends BaseCamelQuarkusTest {

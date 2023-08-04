@@ -14,12 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.camel.quarkus.update;
+package org.apache.camel.quarkus.update.v3_0;
 
 import static org.openrewrite.java.Assertions.java;
-import static org.openrewrite.test.RewriteTest.toRecipe;
 
-import org.apache.camel.quarkus.update.java.CamelBeanRecipe;
 import org.junit.jupiter.api.Test;
 import org.openrewrite.java.JavaParser;
 import org.openrewrite.test.RecipeSpec;
